@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            EcommerceTheme {
+             EcommerceTheme {
                 Scaffold(Modifier.fillMaxSize()) { innerPadding ->
                     Box(Modifier.padding(innerPadding)) {
                         Row(Modifier.zIndex(1f).background(Color.Red).fillMaxWidth().height(50.dp), horizontalArrangement = Arrangement.Center) {
